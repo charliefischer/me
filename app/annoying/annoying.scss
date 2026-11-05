@@ -1,0 +1,39 @@
+body {
+  cursor: none;
+}
+.cursor {
+  height: 18px;
+  width: 18px;
+  border-radius: 4px;
+  background: black;
+}
+.red-box {
+  height: 36px;
+  width: 36px;
+  background: red;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all .2s ease-out;
+}
+.goal {
+  display: flex;
+  justify-content: space-between;
+  width: 180px;
+  margin: 0 auto;
+}
+.post {
+  background: grey;
+  height: 12px;
+  width: 12px;
+}
+.goal-indicator {
+  display: none;
+  font-weight: 700;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 64px;
+}
